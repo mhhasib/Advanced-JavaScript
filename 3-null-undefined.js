@@ -27,7 +27,6 @@ var result = add(10, 5);
 console.log(result);
 
 
-
 // example - 4 did not  pass a  parameter value 
 
 function add (num1,num2){
@@ -55,6 +54,8 @@ console.log(fun);
 
 let ages = [10, 16, 26, 38]
 console.log(ages[2]);
+
+console.log(ages[12]);
 
 console.log(ages[12]);
 

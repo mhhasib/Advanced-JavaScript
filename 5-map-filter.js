@@ -91,14 +91,14 @@ console.log('The bigger numbers are ', bigger2);
 
 // learn about find: find gives only array value
 
-// example - 1: gives the lowest minimum value for less than condition (x <)
+// example - 1: find  gives the lowest minimum value for less than condition (x <)
 
 const ages = [3, 5, 6, 7, 8, 9, 10, 18];
 const lower = ages.find(x => x<10);
 console.log('The lowest value is: ', lower);
 
 
-// example - 2: gives the immediate maximum value (lowest maximum value) for getter than condition (x >)
+// example - 2: find gives the immediate maximum value (lowest maximum value) for getter than condition (x >)
 
 const ages2 = [3, 5, 6, 7, 8, 9, 10, 18];
 const bigger3 = ages2.find(x => x>6);
